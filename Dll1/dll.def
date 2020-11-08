@@ -1,0 +1,9 @@
+LIBRARY Dll1
+
+EXPORTS
+add
+substract
+getfilememory
+PassArrayTest
+Pass2DimensionArrayTest
+File2DimensionArrayTest

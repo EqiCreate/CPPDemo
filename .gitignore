@@ -1,0 +1,11 @@
+*.tlog
+*.suo
+*.db
+*.log
+.vs/
+**/[Bb]in/
+**/[Oo]bj/
+[Dd]ebug/
+1/
+**/packages/
+
