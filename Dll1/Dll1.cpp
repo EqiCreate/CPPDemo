@@ -68,7 +68,7 @@ bool File2DimensionArrayTest(float list[2][10], int row,int colum,char * filepat
 {
     /*¶ÁÈ¡ÎÄ¼þ*/
     ifstream infile;
-    string t1;
+    string t1="2.2";
     vector<string>id;
     char* ptr;
     infile.open(filepath);
@@ -83,12 +83,12 @@ bool File2DimensionArrayTest(float list[2][10], int row,int colum,char * filepat
     }
     ptr = (char*)&id;
     infile.close();
-
+    float f1=stof(t1);
     for (int i = 0; i < row; i++)
     {
         for (int j = 0; j < colum; j++)
         {
-            list[i][j]++;
+            list[i][j]= f1;
         }
     }
     std::cout << "list in 2DimensionArray" << std::endl;

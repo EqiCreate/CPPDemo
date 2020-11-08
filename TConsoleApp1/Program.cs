@@ -18,9 +18,9 @@ namespace TConsoleApp1
 
                 //TESTCsharp();
 
-                //int res = add(1, 2);
+                int res = add(1, 2);
                 string filepath = "1.txt";
-                //Console.WriteLine(res);
+                Console.WriteLine(res);
 
                 //int hesum = simple_sum(3, 5);
                 //Console.WriteLine(hesum);
@@ -48,8 +48,9 @@ namespace TConsoleApp1
                 //Console.WriteLine(list[1,1]);
 
                 float[,] list = new float[2, 10];
-                File2DimensionArrayTest(list,2,10, filepath);
+                File2DimensionArrayTest(list, 2, 10, filepath);
                 Console.WriteLine(list[1, 1]);
+
                 Console.Read();
             }
             catch (Exception e)
